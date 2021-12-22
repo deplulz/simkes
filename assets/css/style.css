@@ -1,0 +1,21 @@
+.login-bg {
+    /* background: rgb(109,199,26);
+    background: linear-gradient(135deg, rgba(109,199,26,1) 0%, rgba(251,82,75,1) 35%, rgba(0,212,255,1) 100%); */
+    background-image: url("../images/bg-login/login-bg.jpg");
+    height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.drop-shadow {
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+.readonly {
+  background: #eee;
+  pointer-events: none;
+  touch-action: none;
+}
