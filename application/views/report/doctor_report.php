@@ -3,6 +3,8 @@
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">Laporan Konsultasi</h3>
+                <a href="<?php echo base_url("report_consulting_print");?>" class="btn btn-primary ml-auto"><i
+                                                class="p-1 dropdown-icon text-white fe fe-printer"></i> Cetak Laporan</a>
             </div>
             <div class="">
                 <table class="table table-hover table-outline table-vcenter text-nowrap card-table">

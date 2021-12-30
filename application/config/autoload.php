@@ -63,7 +63,8 @@ $autoload['libraries'] = array(
 	'session', 
 	'form_validation',
 	'pagination',
-	'session'
+	'session',
+	'pdf'
 );
 
 /*
