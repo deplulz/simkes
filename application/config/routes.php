@@ -61,6 +61,12 @@ $route['recipe'] = 'recipes/recipes';
 $route['recipe/post'] = 'recipes/recipes/save';
 $route['recipe/put/(:any)'] = 'recipes/recipes/edit/$1';
 
+// | -------------------------------------------------------------------------
+// | RECIPE SECTION
+// | -------------------------------------------------------------------------
+$route['report_consulting'] = 'reports/reports/doctor';
+$route['report_medicine'] = 'reports/reports/medicines';
+
 # Disable Controller access without routing
 $route['(.*)'] = "error/error_handling";
 // | -------------------------------------------------------------------------

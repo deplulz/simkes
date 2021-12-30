@@ -14,15 +14,14 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="<?php echo base_url('assets/images/icons/icons.svg');?>" type="image/x-icon" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <!-- Generated: 2018-04-16 09:29:05 +0200 -->
     <title>SIMKES | <?php echo ucfirst($title);?></title>
 
     <link href="<?php echo base_url('assets/css/style.css');?>" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext">
 
     <script src="<?php echo base_url("assets/js/vendors/jquery-3.2.1.min.js");?>"></script>
     <script src="<?php echo base_url('assets/js/vendors/selectize.min.js');?>"></script>
@@ -62,7 +61,6 @@
     <?php $this->load->view('templates/footer');?>
     </div>
     <?}?>
-    <?php echo $menu?>
 </body>
 <script>
 function prev() {
