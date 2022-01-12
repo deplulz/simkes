@@ -97,6 +97,12 @@
                             </div>
                         </li>
                         <?}?>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url("developer");?>"
+                                class="nav-link <?php echo $menu === "developer" ? "active" : ""?>"><i
+                                    class="fe fe-user-check"></i>
+                                 Developer Profile</a>
+                        </li>
                     </ul>
                 </div>
             </div>
